@@ -2,8 +2,12 @@
 
 /* MAIN LAYOUT */
 .navbar-nav {
-    margin-right: 20%;
-    margin-left: 20%;
+    /* margin-right: 20%;
+    margin-left: 20%; */
+}
+
+#nav-div {
+    width: 100%;
 }
 
 .profPic {
