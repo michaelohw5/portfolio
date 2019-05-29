@@ -1,0 +1,28 @@
+                    <div class="col-sm-4" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <!-- front card -->
+                                <div class="card shadow front">
+                                    <div class="card-body shadow">
+                                        <h5 class="card-title">Front</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional
+                                            content.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                                <!-- back card -->
+                                <div class="card shadow back">
+                                    <div class="card-body shadow">
+                                        <h5 class="card-title">Back</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional
+                                            content.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
