@@ -1,119 +1,42 @@
-/* CSS DOCUMENT */
-
-/* MAIN LAYOUT */
-html {
-    box-sizing: border-box;
+:root{--background-color:rgba(224, 221, 221, 0.856)}
+html{box-sizing:border-box}
+.card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)}
+#proj-h1{padding-top:25px;padding-bottom:25px}
+#contact-h1{padding-top:25px;padding-bottom:25px}
+.my-container{padding:15px}
+.card-container{perspective:700px}
+.card-container,.card-flip{transform-style:preserve-3d;transition:all .7s ease}
+.card-flip div{backface-visibility:hidden;transform-style:preserve-3d}
+.back{transform:rotateY(-180deg)}
+.card-container:hover .card-flip{transform:rotateY(180deg)}
+.card-flip{display:grid;grid-template:1fr/1fr;grid-template-areas:"frontAndBack";transform-style:preserve-3d;transition:all .7s ease}
+.front{grid-area:frontAndBack}
+.back{grid-area:frontAndBack;transform:rotateY(-180deg)}
+.card-container{display:grid;perspective:700px}
+.navbar{flex:1;margin:auto!important;display:flex;justify-content:space-around;color:#81665c!important;padding:0 auto}
+.bg-custom{background-color:#1d3348}
+.navbar .navbar-brand,.navbar .navbar-text{color:#d3d3d3!important}
+body{background-color:var(--background-color)}
+.main-container{height:100vh auto;margin:0 auto;padding:0 auto}
+.half-container{height:50vh;margin:0 auto;padding:0 auto}
+#projects{background-color:#d3d3d3!important}
+#about{background-image:url(../images/back2.jpg);padding-top:70px;margin-top:0;color:rgb(209, 209, 209)}
+#about .parallax-curtain{background:rgba(124, 104, 104, 0.4);width:100%;height:100vh;padding-top:10vh}
+#projects{background-color:#fff}
+#contact{background-image:url(../images/back2.jpg);color:rgb(209, 209, 209)}
+#contact .container p{font-weight:700}
+#contact .parallax-curtain{background:rgba(124, 104, 104, 0.4);width:100%;height:50vh}
+#contact h3 {padding-bottom: 5px;}
+#projects,h1{padding:0 auto}
+footer{text-align:center;background-color:#000;margin:0 auto;height:100%;padding-top:5px}
+.card{margin-bottom:10px}
+.main-div{background-image:url(src/images/back1.png);height:100vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+@media only screen and (max-width:600px){
+.brand-container{display:none!important}
+#about{background-color:#dfd7d7;padding-top:100px}
 }
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* flip */
-.card-container {
-    perspective: 700px;
-  }
-  
-  .card-flip, .card-container {
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
-  }
-  
-  .card-flip div {
-    backface-visibility: hidden;
-    transform-style: preserve-3d;
-  }
-  
-  .back {
-    transform: rotateY(-180deg);
-  }
-  
-  .card-container:hover .card-flip {
-    transform: rotateY(180deg);
-  }
-
-  .card-flip {
-    display: grid;
-    grid-template: 1fr / 1fr;
-    grid-template-areas: "frontAndBack";
-    transform-style: preserve-3d;
-    transition: all 0.7s ease;
-  }
-  
-  .front {
-    grid-area: frontAndBack;
-  }
-  
-  .back {
-    grid-area: frontAndBack;
-    transform: rotateY(-180deg);
-  }
-
-  .card-container {
-    display: grid;
-    perspective: 700px;
-  }
-/* end flip */
-
-
-.navbar {
-    flex: 1;
-    margin: auto !important;
-    display: flex;
-    justify-content: space-around;
-    /* margin-bottom: 0px; */
-}
-
-body {
-    background-color: black;
-}
-
-.jumbotron{
-    height: 100vh;
-    margin: 0 auto;
-}
-
-#about {
-    background-color: rgb(223, 215, 215);
-    padding-top: 100px;
-}
-
-#projects {
-    background-color: white;
-}
-
-#contact {
-    background-color: rgb(223, 215, 215);
-}
-
-#projects,
-h1 {
-    padding: 0 auto;
-}
-
-#contact,
-h1 {
-    padding: 0 auto;
-}
-
-footer {
-    text-align: center;
-    background-color: black;
-    margin: 0 auto;
-    color: white;
-}
-
-.card {
-    margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-    .brand-container {
-            display: none !important;
-    }
-
-    #about {
-        background-color: rgb(223, 215, 215);
-        padding-top: 100px;
-    }
+.half-div{background-image:url(src/images/back1.png);height:50vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+@media only screen and (max-width:600px){
+.brand-container{display:none!important}
+#about{background-color:#dfd7d7;padding-top:100px}
 }
