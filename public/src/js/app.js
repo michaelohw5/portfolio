@@ -9,3 +9,7 @@ $('a[href*="#"]').on('click', function(e) {
     'linear'
   )
 })
+
+$('#navbarLink').click(function() {
+  $(this).toggleClass("active");
+})
