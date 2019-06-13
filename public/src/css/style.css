@@ -40,10 +40,16 @@ body{height: 100%;}
 
 .card{box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);background-color:#52616e;color:#d1d1d1; padding: 30px;}
 #proj-h1{padding-top:25px;padding-bottom:25px}
+#firstRow{
+  margin-top: 7%;
+}
+#secondRow{
+  margin-bottom: 10%;
+}
 #contact-h1{padding-top:25px;padding-bottom:25px}
 .my-container{padding:10px;
-  margin: 0;
-  overflow: auto;
+  margin: 0 auto;
+  /* overflow: auto; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -122,11 +128,14 @@ footer p {height: 100%;}
 .card{margin-bottom:10px}
 .main-div{background-image:url(src/images/back1.png);height:100vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
 .half-div{background-image:url(src/images/back1.png);height:100vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
-@media only screen and (max-width:1100px){
+#contactRow{margin-top:0;margin-bottom:0;}
+@media only screen and (max-width:1000px){
   .card-container{perspective:700px; height: 150px;}
 #about .parallax-curtain{background:rgba(124,104,104,.7);width:100%;}
 .inner-div {width: 100%; height: 100%;}
 .brand-container{display:none!important}
+.main-container{height:100%;}
+.main-div{height:100%;}
 .half-container{height:100%}
 #contact .parallax-curtain{background:rgba(124,104,104,.7);width:100%;}
 #about{background-color:#dfd7d7;padding-top:45px}
@@ -161,5 +170,8 @@ footer p {height: 100%;}
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+#profpic {
+  display: none;
 }
 }

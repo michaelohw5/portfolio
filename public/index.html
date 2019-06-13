@@ -144,7 +144,7 @@
         <div class="container parallax-curtain">
             <div class="inner-div">
                 <div class="row">
-                    <div class="offset-md-1 col-md-10">
+                    <div class="offset-md-1 offset-sm-1 col-sm-10 col-md-10">
                         <h3>About Me</h3>
                         <p>Hi! I am Mike Oh. My Korean name is Hyun Woo but that can be little funky to say, so I just
                             go by
@@ -155,7 +155,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="offset-md-1 col-md-10">
+                    <div class="offset-md-1 offset-sm-1 col-sm-10 col-md-10">
                         <h3> SKILLS </h3>
                         <p> Programming languages: JavaScript, Java
                             Databases: Heroku, MongoDB, Firebase
@@ -172,10 +172,10 @@
         <div class="container" id="my-container">
                 <h1 id="proj-h1">Projects</h1>
                 <!-- first row -->
-                <div class="row">
+                <div class="row" id="firstRow">
                     <!-- first col -->
 
-                    <div class="card-container col-md-6">
+                    <div class="card-container col-md-6 col-sm-6 h-100">
                         <div class="card-flip">
                             <!-- front card -->
                             <div class="card shadow front">
@@ -191,7 +191,6 @@
                                     additional
                                     content.
                                 </p>
-                                
                             </div>
                         </div>
                     </div>
@@ -199,7 +198,7 @@
                     <!-- end of first col -->
 
                     <!-- second col -->
-                    <div class="card-container col-md-6">
+                    <div class="card-container col-md-6 col-sm-6 h-100">
                             <div class="card-flip">
                                     <!-- front card -->
                                     <div class="card shadow front">
@@ -224,9 +223,9 @@
                 </div>  
                 <!-- end of first row -->
                 <!-- 2nd row -->
-                <div class="row">
+                <div class="row" id="secondRow">
                         <!-- first col -->
-                        <div class="card-container col-md-6">
+                        <div class="card-container col-md-6 col-sm-6 h-100">
                             <div class="card-flip">
                                 <!-- front card -->
                                 <div class="card shadow front">
@@ -250,7 +249,7 @@
                         <!-- end of first col -->
     
                         <!-- second col -->
-                        <div class="card-container col-md-6">
+                        <div class="card-container col-md-6 col-sm-6 h-100">
                                 <div class="card-flip">
                                         <!-- front card -->
                                         <div class="card shadow front">
@@ -277,10 +276,10 @@
             </div>
     </div>
 
-    <div class="half-container half-div" id="contact">
+    <div class="main-container main-div" id="contact">
         <div class="container parallax-curtain">
-            <div class="row">
-                <div class="offset-md-1 col-md-4">
+            <div class="row" id="contactRow">
+                <div class="offset-md-1 offset-sm-1 col-md-4 col-sm-4">
                     <h3 id="contact-h1">Contact</h3>
                     <p>Phone : 949-929-4068</p>
                     <p>Email : mikeohw5@gmail.com</p>
@@ -288,16 +287,16 @@
                     <p>Github : https://github.com/michaelohw5</p>
                     <p>Resume : <a id="resume" href="./src/files/resume.pdf" download>HERE</a></p>
                 </div>
-                <div class="offset-md-2 col-md-5" id="profpic">
+                <div class="offset-md-2 col-md-5 col-sm-4" id="profpic">
                     <img src="./src/images/person_placeholder.jpg" alt="placeholder" class="rounded-circle" id="mypic">
                 </div>
             </div>
         </div>
     </div>
 
-    <footer class="navbar-fixed-bottom">
+    <!-- <footer class="navbar-fixed-bottom">
         
-    </footer>
+    </footer> -->
 
 
     <script src="./src/js/app.js"></script>
