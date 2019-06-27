@@ -10,6 +10,7 @@ $('a[href*="#"]').on('click', function(e) {
   )
 })
 
+
 // // The function actually applying the offset
 // function offsetAnchor() {
 //   if (location.hash.length !== 0) {
