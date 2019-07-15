@@ -8,7 +8,7 @@ body{height:100%}
 .card-group{
 
   margin: 0 !important;
-  
+    
   align-content: center;
   
 }
@@ -31,7 +31,8 @@ body{height:100%}
 #proj-h1{padding-top: 30px;padding-left:10px;padding-bottom:10px;}
 #firstRow{margin-top:7%}
 #secondRow{margin-bottom:10%}
-#contact-h1{padding-top:25px;padding-bottom:25px}
+#skills{margin-top: 75px;}
+#contact-h1{padding-top:75px;padding-bottom:50px}
 .inner-div{width:50%;height:100%}
 .navbar{flex:1;margin:auto!important;display:flex;justify-content:space-around;color:#81665c!important;padding:0 auto}
 nav a{font-weight:900;color:#81665c}
@@ -42,36 +43,38 @@ nav a{font-weight:900;color:#81665c}
 .bg-custom{background-color:#1d3348}
 .navbar .navbar-brand,.navbar .navbar-text{color:#d3d3d3!important}
 body{background-color:var(--background-color)}
-.main-container{min-height:100vh auto;margin:0 auto;padding:0 auto;padding-bottom:10px;display:block}
-.half-container{height:100vh;margin:0 auto;padding:0 auto}
-#projects{background-color:#1d3348!important;height:auto; min-height: 100vh;}
+.main-container{min-height:75vh auto;margin:0 auto;padding:0 auto;display:block}
+.half-container{height:75vh;margin:0 auto;padding:0 auto}
+#projects{background-color:#1d3348!important;height:auto; min-height: 75vh;}
 #projects h1{color:#c4c4c4}
-#about{height:auto;min-height:100%!important;background-image:url(../images/back2.jpg);padding-top:60px;margin-top:0;color:#d1d1d1;padding-bottom:0}
-#about .parallax-curtain{background:rgba(124,104,104,.7);width:100%;height:100vh;padding-top:10vh}
-#projects{background-color:#1d3348}
-#contact{background-image:url(../images/back2.jpg);color:#d1d1d1;height:auto}
+#about{height:auto;min-height:75%!important;background-image:url(../images/back2.jpg);padding-top:60px;margin-top:0;color:#d1d1d1;padding-bottom:0}
+#about .parallax-curtain{background:rgba(124,104,104,.7);width:100%;height:75vh;padding-top:10vh}
+#projects{background-color:#1d3348; padding-top: 25px;}
+#contact{background-image:url(../images/back2.jpg);color:#d1d1d1;height:auto; }
 #contact .container p{font-weight:700}
-#contact .parallax-curtain{background:rgba(124,104,104,.7);width:100%;height:100vh}
+#contact .parallax-curtain{background:rgba(124,104,104,.7);width:100%;height:75vh}
 #contact h3{padding-bottom:5px}
 #resume{color:#d1d1d1}
-#mypic{margin-top:10%;height:200px;width:200px}
+#mypic{margin-top:75px;height:200px;width:200px}
 footer{text-align:center;background-color:#1d3348;height:auto;margin-bottom:0}
 footer p{height:100%}
-.main-div{background-image:url(src/images/back1.png);height:100vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
-.half-div{background-image:url(src/images/back1.png);height:100vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.main-div{background-image:url(src/images/back1.png);height:75vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.half-div{background-image:url(src/images/back1.png);height:75vh;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
 #contactRow{margin-top:0;margin-bottom:0}
 @media only screen and (max-width:1000px){
 #about .parallax-curtain{background:rgba(124,104,104,.7);width:100%}
-.inner-div{width:100%;height:100%}
+
+.inner-div{width:100%;height:75%}
 .brand-container{display:none!important}
 .main-container{height:100%}
 .main-div{height:100%}
 .half-container{height:100%}
 #contact .parallax-curtain{background:rgba(124,104,104,.7);width:100%}
+#contact-parallax{padding-top:50px !important;}
 #about{background-color:#dfd7d7;padding-top:45px}
 #profpic{text-align:center;margin-bottom:50px}
 .bg-image-fury{background-image:url(../images/title.png);filter:blur(8px);-webkit-filter:blur(8px);height:100%;background-position:center;background-repeat:no-repeat;background-size:cover}
 .bg-text{background-color:#000;background-color:rgba(0,0,0,.4);color:#fff;font-weight:700;border:3px solid #f1f1f1;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:2;width:80%;padding:20px;text-align:center}
 #profpic{display:none}
-#contactInfo{font-size:.8em!important}
+#contactInfo{font-size:.8em!important;}
 }
