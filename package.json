@@ -44,7 +44,7 @@
     "delayed-stream": "^1.0.0",
     "depd": "^1.1.2",
     "destroy": "^1.0.4",
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.1.1",
     "duplexer3": "^0.1.4",
     "ecc-jsbn": "^0.1.2",
     "ecdsa-sig-formatter": "^1.0.11",
