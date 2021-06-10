@@ -85,7 +85,7 @@
     "get-stream": "^3.0.0",
     "get-value": "^2.0.6",
     "getpass": "^0.1.7",
-    "glob-parent": "^3.1.0",
+    "glob-parent": "^5.1.2",
     "glob-slash": "^1.0.0",
     "glob-slasher": "^1.0.1",
     "global-dirs": "^0.1.1",
