@@ -38,7 +38,7 @@
     "d": "^1.0.0",
     "dashdash": "^1.14.1",
     "debug": "^2.6.9",
-    "decode-uri-component": "^0.2.0",
+    "decode-uri-component": "^0.2.1",
     "deep-extend": "^0.6.0",
     "define-property": "^2.0.2",
     "delayed-stream": "^1.0.0",
